@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- JQuery / Materialize CSS + JavaScript imports -->
+    <link rel="manifest" href="resume.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Resume">
+    <meta name="msapplication-TileImage" content="img/ms144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <style>
+        #container {
+            padding-left: 300px;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        h1, h2, h3, h4, h5{
+            font-family: 'Oswald', sans-serif;
+        }
+
+        h4{
+            color: rgb(11, 153, 70);
+        }
+
+        h5{
+            color:rgb(97, 70, 17)
+        }
+
+        @media only screen and (max-width : 992px) {
+            #container {
+                padding-left: 0px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="menu">
+
+            <ul id="slide-out" class="side-nav fixed show-on-large-only">
+                <li><a href="#skills">Skills and Tools</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">UX Project Experience<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#plantbased">Plant-Based Meals Website</a></li>
+                                    <li><a href="#travel">Travel App for Families</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Work Experience<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#summercamp">Summer Camp Counsellor</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Volunteer Experience<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#writer">Website Content Writer</a></li>
+                                    <li><a href="#yearbook">Yearbook Graphic Designer</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i
+                    class="material-icons">menu</i></a>
+
+            <h3>Jadon Kam: UX Design Resume</h3>
+            <hr/>
+<section id = "skills">
+    <h4><u>Skills and Tools</u></h4>
+    <ol>
+        <li>Experienced in UX methods and techniques, such as user research, design thinking, user testing, and designing user-centred information architecture; Developed through many UX projects and classes</li>
+        <li>Skilled in producing user-centred wire-frames, mock-ups, and prototypes using Adobe XD and Figma</li>
+        <li>Experienced with designing and managing websites: Created my portfolio’s structure and content using HTML and CSS; implemented responsive design into the website</li>
+        <li>Strong collaboration and teamwork skills gained through working with classmates and stakeholders on UX projects for 2+ years, working as a summer camp planner and counsellor for 3 years, and working as a part of my high school yearbook team for 2 years</li>
+        <li>Strong creative and graphic design skills developed and demonstrated through 4 years of art classes, 2 years of being a high school yearbook graphic designer, and 2+ years of UX courses</li>
+    </ol>
+    </section>
+    <hr/> 
+<section id = "education">    
+    <h4><u>Education</u></h4>
+    <p>Wilfrid Laurier University, Bachelor or User Experience Design,<br/>Brantford, Ontario, 2019 to Present</p>       
+    </section>
+    <hr/>  
+<section id = "experience">       
+    <h4><u>Experience</u></h4>
+    <h4>UX Projects</h4>
+<section id = "plantbased"> 
+    <h5>Designing a Website to Help Users Lower their Carbon Footprint through Plant-Based Meals</h5>
+    <h6>Wilfrid Laurier University, March 2021 (Design Competition & Solo Project)</h6>
+    <ol>
+        <li>Conducted user research to learn about the needs and pain points of omnivores in eating more plant-based meals and the successes of vegans in removing meat and dairy from their diet; Created personas and user journey maps from this research</li>
+        <li>Used user research insights, such as concerns users had about nutrition and costs of plant-based meals, to develop a website with recipes that use ingredients from weekly grocery store flyers and connects users to helpful resources on nutrition</li>
+        <li>Tested the website with 6 users through 1-on-1 user testing sessions. Gave them potential tasks people would do on the website. Made improvements on the website’s navigation and content based on insights I gained from observing how they navigated the website and their feedback</li>
+    </ol>
+</section>
+<section id = "travel"> 
+    <h5>Designing a Travel App for Families with Children</h5>
+    <h6>Adobe & Southwest Airlines, May 2021 (Design Competition & Team Project)</h6>
+    <ol>
+        <li>Challenged with creating an app that could help users learn about their travel destinations while on a plane flight; Focused on families with children as many travel magazines and travel media are not useful or engaging for them</li>
+        <li>Conducted user research to learn about the needs of families with children while planning vacations and travelling in their vacation destination; Created personas based on this research</li>
+        <li>Collaborated with a classmate to brainstorm user-centred solutions and create wireframes, mockups, and prototypes. Developed an app prototype that would be engaging and informative for users</li>
+        <li>Followed a design thinking process to empathize with families, define the problem based on user pain points and definitions of success, ideate and prototype a travel app, and test it with potential users</li>
+    </ol>
+</section>
+
+
+<h4>Work Experience</h4>
+<section id = "summercamp"> 
+    <h5>Summer Camp Counsellor</h5>
+    <h6>July to August 2019, July to August 2020, June to August 2021</h6>
+    <ol>
+        <li>Collaborated with other camp staff through planning activities, lessons, games, and delivery packages to create an interactive online camp for about 50 campers</li>
+        <li>Demonstrated strong oral communication skills through leading the team of camp counsellors in team meetings and independently leading a group of 8 campers through activities and lessons</li>
+        <li>Collected feedback from my group of campers frequently to create activities that they would enjoy; Tested new games and activities with them to share activity ideas with other counsellors</li>
+        <li>Conducted user research to determine the reopening plan for the church; created surveys to see when parents and church staff were comfortable to transition from online church back to in-person, socially distanced church after the online camp was finished; analyzed user concerns and opinions</li>
+    </ol>
+</section>
+
+<h4>Volunteer Experience</h4>
+<section id = "writer"> 
+    <h5>Website Content Writer</h5>
+    <h6>Changing Places Canada, February 2020 to May 2020</h6>
+    <ol>
+        <li>Researched the needs of users in need of accessible washrooms through interviews completed over phone calls; Worked with Laurier's UX librarian who connected me with these users</li>
+        <li>Used written communication skills to write user-centred website content that helped different audiences, such as wheelchair users and caretakers, understand the goals of Changing Places</li>    
+        <li>Demonstrated teamwork skills through working with other students and the Changing Places team</li>
+    </ol>
+</section>
+<section id = "yearbook"> 
+    <h5>Yearbook Graphic Designer</h5>
+    <h6>Bayview Secondary School, September 2018 to June 2019</h6>
+    <ol>
+        <li>Designed the pages for my high school’s yearbook and designed our team logo; applied my graphic design and Adobe Illustrator skills to communicate the memorable moments of the school year</li>
+        <li>Led the graphics team in my second year; managed multiple projects under strict deadlines and worked closely with the team to ensure that everyone was able to follow the schedule</li>
+    </ol>
+</section>
+<br/>
+<img src="JK_Cards.png" style="width: 100%; display: block; margin-left: auto; margin-right:auto;">
+
+</div>
+</div>
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+        window.onload = () => {
+            'use strict';
+
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('./sw.js');
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
