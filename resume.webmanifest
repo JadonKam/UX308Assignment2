@@ -3,13 +3,13 @@
   "short_name": "Resume",
   "icons": [
     {
-      "src": "img/android-chrome-192x192.png",
-      "sizes": "192x192",
+      "src": "img/android-chrome-187x192.png",
+      "sizes": "187x192",
       "type": "image/png"
     },
     {
-      "src": "img/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "img/android-chrome-498x512.png",
+      "sizes": "498x512",
       "type": "image/png"
     },
     {
